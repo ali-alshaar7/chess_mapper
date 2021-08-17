@@ -2,6 +2,7 @@ from neural_chessboard import pSLID, SLID, slid_tendency, LAPS, LLR, llr_pad, cr
 import cv2, numpy as np
 import math
 import os
+from config import root_direc
 
 def centreBoard(img, dp):
 
