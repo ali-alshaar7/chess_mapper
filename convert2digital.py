@@ -1,10 +1,8 @@
 
 from PIL import Image
-import neural_chessboard 
+from config import root_direc
 import cv2, numpy as np
 from centering_correction import chess_mapping
-
-root_direc = neural_chessboard.root_direc
 
 piece_codes_num = [ r"\blank.png", r"\bB.png",
  r"\bK.png" , r"\bN.png" , r"\bP.png" , r"\bQ.png" ,r"\bR.png" , r"\wB.png" ,
