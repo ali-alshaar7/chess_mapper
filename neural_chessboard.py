@@ -5,12 +5,11 @@ import matplotlib.path, matplotlib.pyplot as plt
 import matplotlib.path as mplPath
 import collections, itertools, random, math
 from copy import copy
+from config import root_direc
 import functools, os, re
 
 na = np.array
 from keras.models import model_from_json
-
-root_direc = r"C:\Users\alish\Desktop\misc\chess_mapper"
 
 """
 https://github.com/maciejczyzewski/neural-chessboard
