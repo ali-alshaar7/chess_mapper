@@ -1,1 +1,1 @@
-root_direc = r"C:\Users\alish\Desktop\misc\chess_mapper"
+root_direc = r""
